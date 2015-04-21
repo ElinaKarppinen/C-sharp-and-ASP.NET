@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Page">
+        <div id="Header"><strong>Harrastusdoggi- ja Kultadoggikisan pistelaskuri</strong></div>
+        <div id="Menu"><a href="Dog.aspx">Koira</a> <a href="Show.aspx">Lisää näyttely</a> <a href="Test.aspx">Lisää koe</a> <a href="Results.aspx">Tulokset</a></div>
+        <div id="Content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        </div>        
+        <%--<div id="Footer">My Footer</div>--%>
+    </div>
+    </form>
+</body>
+</html>

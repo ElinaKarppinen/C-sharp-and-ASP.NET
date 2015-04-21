@@ -1,0 +1,22 @@
+﻿#Page {
+    width: 900px;
+}
+#Header {
+    background-image: url("banner_sd.jpg");
+    background-color: lightblue;
+    font-size: 30px;
+    height: 80px;
+    text-align: center;
+    color: #FF6600;
+}
+#Menu {
+    background-color: antiquewhite;
+}
+#Content {
+    height: 200px;
+    color: black
+    
+}
+#Footer {
+    background-color: lightblue;
+}
